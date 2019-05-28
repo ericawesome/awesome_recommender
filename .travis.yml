@@ -11,4 +11,4 @@ install:
 # Command to run tests, e.g. python setup.py test
 script:
 - pylint recommender_app/*.py
-#- pytest test_space.py
+#- pytest tests/*.py

@@ -24,8 +24,6 @@ def output_page():
     #
     # DO OR CALL YOUR CALCULATIONS Here
     #
-    movies = get_recommendations(movies,ratings)
-    title = "YOUR RECOMMENDATIONS"
-    return render_template('recommendations.html', movies=movies)
+    movies = get_recommendations(movies, ratings)
 
-    return f"You entered: {movie1}, {movie2}, {movie3}"
+    return render_template('recommendations.html', movies=movies)

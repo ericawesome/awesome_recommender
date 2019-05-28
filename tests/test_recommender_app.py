@@ -9,4 +9,4 @@ from recommender_app import recommender_awesome
 
 
 def test_recommender():
-    assert recommender_awesome.get_recommendation() == 'Shrek'
+    assert recommender_awesome.get_recommendations() == 'Shrek'
