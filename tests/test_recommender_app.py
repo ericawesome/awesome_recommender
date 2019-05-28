@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from recommender_app import recommender_app
+from recommender_app import recommender_awesome
 from recommender_app import cli
 
 
