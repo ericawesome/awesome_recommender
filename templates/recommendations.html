@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">HERE IS YOUR AWESOME MOVIE RECOMMENDER <span class="badge badge-primary">New</span></a>
+</nav>
+
+<body>
+
+  <div class="card-group">
+  <div class="card">
+    <div class="card-body bg-success text-light">
+      <br>
+      <h6> THESE ARE YOUR AWESOME MOVIE RECOMMENDATION </h6>
+
+      <br>
+      <br>
+      <p> {{movies}} </p>
+      <br>
+      <br>
+      <form>
+        <input type="button" class="btn btn-dark btn-lg btn-block" value="Wanna try it with other movies?" onclick="history.back()">
+      </form>
+
+
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Now go and get some popcorn!</small>
+      <br>
+      <small class="text-muted">
+        <a href="https://eric3008.wixsite.com/another-perspective/life-in-porto">... or take a look into my blog with recommendations for your next trip to Portugal!!</a>
+      </small>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

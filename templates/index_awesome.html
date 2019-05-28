@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>THE AWESOME RECOMMENDER</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">HERE IS YOUR AWESOME MOVIE RECOMMENDER <span class="badge badge-secondary">New</span></a>
+</nav>
+
+<body>
+
+  <div class="card-group">
+  <div class="card">
+    <div class="card-body bg-warning text-dark">
+      <form action="/get_recommendations" method="GET" autocomplete="off">
+        <ul style="list-style: none;">
+         <h6> EXPLORE NEW MOVIES BY ENTERING THREE MOVIES COMBINED WITH A RATING. </h6>
+         <br>
+         <li>
+           <input type="text" name="movie1" placeholder="Enter your 1st movie" width="200px"></input>
+         </li>
+         <li>
+           <div class="form-group">
+             <label for="exampleFormControlSelect1">Your rating for your 1st movie:</label>
+             <select class="form-control form-control-sm" id="rating1" name="rating1">
+               <option value="5" selected>5</option>
+               <option value="4">4</option>
+               <option value="3">3</option>
+               <option value="2">2</option>
+               <option value="1">1</option>
+             </select>
+           </div>
+         </li>
+
+         <li>
+           <input type="text" name="movie2" placeholder="Enter your 2nd movie"></input>
+         </li>
+         <li>
+           <div class="form-group">
+             <label for="exampleFormControlSelect1">Your rating for your 2nd movie:</label>
+             <select class="form-control form-control-sm" id="rating2" name="rating2">
+               <option value="5" selected>5</option>
+               <option value="4">4</option>
+               <option value="3">3</option>
+               <option value="2">2</option>
+               <option value="1">1</option>
+             </select>
+           </div>
+         </li>
+
+         <li>
+           <input type="text" name="movie3" placeholder="Enter your 3rd movie"></input>
+         </li>
+         <li>
+           <div class="form-group">
+             <label for="exampleFormControlSelect1">Your rating for your 3rd movie:</label>
+             <select class="form-control form-control-sm" id="rating3" name="rating3">
+               <option value="5" selected>5</option>
+               <option value="4">4</option>
+               <option value="3">3</option>
+               <option value="2">2</option>
+               <option value="1">1</option>
+             </select>
+           </div>
+         </li>
+         <br>
+
+
+         <input type="submit" class="btn btn-primary btn-lg btn-block" value="Get your recommendations!"></input>
+        </ul>
+      </form>
+    </div>
+    <div class="card-footer text-center">
+      <small class="text-muted"> Aren't you excited like a frog to try the awesome recommender? </small>
+      <br>
+      <small class="text-muted"> But be patient, it needs a little time to calculate your results. </small>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
