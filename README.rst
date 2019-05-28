@@ -2,11 +2,13 @@
 awesome_recommender
 ===================
 
+**Demo of a movie recommendation system using the collaborative filtering (in particular calculating cosine similarity).**
+
 
 .. image:: https://img.shields.io/pypi/v/recommender_app.svg
         :target: https://pypi.python.org/pypi/recommender_app
 
-.. image:: https://img.shields.io/travis/ericawesome/recommender_app.svg
+.. image:: https://travis-ci.org/ericawesome/awesome_recommender.svg?branch=master
         :target: https://travis-ci.org/ericawesome/recommender_app
 
 .. image:: https://readthedocs.org/projects/recommender-app/badge/?version=latest
@@ -14,9 +16,6 @@ awesome_recommender
         :alt: Documentation Status
 
 
-
-
-Python Boilerplate contains all the boilerplate you need to create a Python package.
 
 
 * Free software: MIT license
